@@ -1,0 +1,51 @@
+body
+{
+	min-width:50px;
+	width:50%;
+background-image: url("image/fond.jpg");
+background-attachment: scroll;
+}
+#nom
+{
+	text-align:center;
+}
+#banni
+{
+   width: 1000px;
+   margin:auto;
+}
+#sous_menu
+{   min-height:900px;
+	height:100%;
+   width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#sous_menu li
+{
+  background: #ff3399 ;
+  color: #fff ;
+  border: 1px solid #600 ;
+  margin-bottom: 1px ; 
+}
+#sous_menu a
+{
+display: block ;
+  background: #ff3399 ;
+  color: #fff ;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 4px 0 ;  
+}
+mark
+{
+	background-color:#ff80bf;
+}
+#sous_menu li a:hover, #sous_menu li a:focus, #sous_menu li a:active 
+{
+  background: #ff3399 ;
+  text-decoration: underline; 
+}
